@@ -96,7 +96,7 @@ const Appointments = () => {
             <h1 className="text-[#171f46] font-semibold text-2xl my-3">
               Add Appointment
             </h1>
-            <form>
+            <form onSubmit={(e) => e.preventDefault()}>
               <div className="flex flex-col my-3">
                 <label
                   htmlFor="title"
